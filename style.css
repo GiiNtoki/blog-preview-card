@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('woff2');
+  font-weight: 500, 900;
+  font-style: normal;
+}
+
+:root{
+    --clr-primary-yellow: hsl(47, 88%, 63%);
+    
+    --clr-neutral-white: hsl(0, 0%, 100%);
+    --clr-neutral-gray: hsl(0, 0%, 42%);
+    --clr-neutral-black: hsl(0, 0%, 7%);
+
+    --font-family-default: "Figtree", sans-serif;
+
+    --fs-400: 1rem;
+    --fs-300: calc(var(--fs-400) - 2px);
+
+    --fw-extrabold: 800;
+    --fw-semibold: 600;
+
+    --gen-spacing-400: 1rem;
+    --gen-spacing-500: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font: inherit;
+  margin: 0;
+}
+
+p,
+h1,
+h3 {
+  overflow-wrap: break-word; /* Avoid text overflows */
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
